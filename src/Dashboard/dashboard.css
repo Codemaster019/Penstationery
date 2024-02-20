@@ -1,0 +1,12 @@
+.dashboard_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header_text{
+    font-size: 5rem;
+    color: rgb(249, 24, 62);
+}
