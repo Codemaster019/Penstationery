@@ -1,12 +1,161 @@
-.dashboard_div{
-    display: flex;
-    justify-content: center;
-    margin-top: 10%;
-    align-items: center;
-    flex-direction: column;
+.para_dash{
+    color: white;
+    font-size: 50px;
+    animation: pulse 30s infinite alternate;
+    font-style: italic;
 }
 
-.header_text{
-    font-size: 5rem;
-    color: rgb(249, 24, 62);
+
+
+  @keyframes pulse {
+    0% {
+      
+        background: linear-gradient(
+        150deg,
+        hsl(240deg 99% 74%) 0%,
+        hsl(274deg 85% 70%) 10%,
+        hsl(305deg 77% 66%) 20%,
+        hsl(320deg 100% 68%) 30%,
+        hsl(331deg 100% 68%) 40%,
+        hsl(346deg 100% 70%) 50%,
+        hsl(7deg 100% 71%) 60%,
+        hsl(24deg 100% 65%) 70%,
+        hsl(37deg 100% 59%) 80%,
+        hsl(47deg 100% 53%) 90%,
+        hsl(55deg 94% 50%) 100%);
+
+        background-clip: text;
+        color: transparent;
+    }
+    
+    10% {
+      
+      background: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+      background-clip: text;
+        color: transparent;
+    }
+    
+    20% {
+      
+      background: linear-gradient(to right bottom, #5bfdca, #00efe2, #00def4, #00ccfd, #14b7fa, #24b7fa, #30b6fb, #39b6fb, #00caff, #00ddff, #00effc, #00ffef);
+      background-clip: text;
+        color: transparent;
+    }
+    
+    30% {
+      
+      background: linear-gradient(
+        150deg,
+        hsl(240deg 99% 74%) 0%,
+        hsl(274deg 85% 70%) 10%,
+        hsl(305deg 77% 66%) 20%,
+        hsl(320deg 100% 68%) 30%,
+        hsl(331deg 100% 68%) 40%,
+        hsl(346deg 100% 70%) 50%,
+        hsl(7deg 100% 71%) 60%,
+        hsl(24deg 100% 65%) 70%,
+        hsl(37deg 100% 59%) 80%,
+        hsl(47deg 100% 53%) 90%,
+        hsl(55deg 94% 50%) 100%
+      );
+      background-clip: text;
+      color: transparent;
+      
+     
+    }
+    40% {
+      
+      background: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+      background-clip: text;
+      color: transparent;
+      
+    }
+    50%{
+      background: linear-gradient(
+        150deg,
+        hsl(240deg 99% 74%) 0%,
+        hsl(274deg 85% 70%) 10%,
+        hsl(305deg 77% 66%) 20%,
+        hsl(320deg 100% 68%) 30%,
+        hsl(331deg 100% 68%) 40%,
+        hsl(346deg 100% 70%) 50%,
+        hsl(7deg 100% 71%) 60%,
+        hsl(24deg 100% 65%) 70%,
+        hsl(37deg 100% 59%) 80%,
+        hsl(47deg 100% 53%) 90%,
+        hsl(55deg 94% 50%) 100%);
+
+        background-clip: text;
+        color: transparent;
+    }
+    60%{
+      background: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+      background-clip: text;
+        color: transparent;
+    }
+    70%{
+      background: linear-gradient(to right bottom, #5bfdca, #00efe2, #00def4, #00ccfd, #14b7fa, #24b7fa, #30b6fb, #39b6fb, #00caff, #00ddff, #00effc, #00ffef);
+      background-clip: text;
+        color: transparent;
+    }
+    80%{
+      background: linear-gradient(
+        150deg,
+        hsl(240deg 99% 74%) 0%,
+        hsl(274deg 85% 70%) 10%,
+        hsl(305deg 77% 66%) 20%,
+        hsl(320deg 100% 68%) 30%,
+        hsl(331deg 100% 68%) 40%,
+        hsl(346deg 100% 70%) 50%,
+        hsl(7deg 100% 71%) 60%,
+        hsl(24deg 100% 65%) 70%,
+        hsl(37deg 100% 59%) 80%,
+        hsl(47deg 100% 53%) 90%,
+        hsl(55deg 94% 50%) 100%
+      );
+      background-clip: text;
+      color: transparent;
+    }
+    90%{
+      background: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+      background-clip: text;
+      color: transparent;
+    }
+    100%{
+      
+        background: linear-gradient(
+          150deg,
+          hsl(240deg 99% 74%) 0%,
+          hsl(274deg 85% 70%) 10%,
+          hsl(305deg 77% 66%) 20%,
+          hsl(320deg 100% 68%) 30%,
+          hsl(331deg 100% 68%) 40%,
+          hsl(346deg 100% 70%) 50%,
+          hsl(7deg 100% 71%) 60%,
+          hsl(24deg 100% 65%) 70%,
+          hsl(37deg 100% 59%) 80%,
+          hsl(47deg 100% 53%) 90%,
+          hsl(55deg 94% 50%) 100% );
+  
+          background-clip: text;
+          color: transparent;
+    }
+  }
+
+.para_container{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.para_position{
+   margin-left: 2.5rem;
+}
+
+.video{
+  z-index: -3;
+  position: fixed;
+  width: 100%;
 }

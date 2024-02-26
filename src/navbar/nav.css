@@ -1,16 +1,49 @@
 .nav_anchor{
-    display: flex;
-    justify-content: center;
-    color: rgb(246, 40, 74) ;
-    font-size: large;
+    color: white;
     text-decoration: none;
+    margin-right: 3rem;
+}
+
+.nav_position{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.5rem;
 }
 
 .nav_style{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 30%;
-    margin: auto;
-    margin-top: 3.5rem;
+display: flex;
+justify-content: flex-end;
+
+}
+
+.nav_img{
+    border-radius: 50%;
+}
+
+.logo_nav{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 3rem;
+      
+}
+
+.logo_nav:hover{
+    animation: rotate 0.5s linear;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.nav_anchor:hover{
+font-weight: bolder;
 }
