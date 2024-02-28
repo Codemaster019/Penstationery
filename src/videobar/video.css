@@ -1,0 +1,74 @@
+#initial_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.header_text{
+max-width: 70%;
+text-align: center;
+color: white;
+font-size: xx-large;
+line-height: 5rem;
+margin: 3rem;
+}
+
+.span_color{
+    background: linear-gradient(
+        150deg,
+        hsl(240deg 99% 74%) 0%,
+        hsl(274deg 85% 70%) 10%,
+        hsl(305deg 77% 66%) 20%,
+        hsl(320deg 100% 68%) 30%,
+        hsl(331deg 100% 68%) 40%,
+        hsl(346deg 100% 70%) 50%,
+        hsl(7deg 100% 71%) 60%,
+        hsl(24deg 100% 65%) 70%,
+        hsl(37deg 100% 59%) 80%,
+        hsl(47deg 100% 53%) 90%,
+        hsl(55deg 94% 50%) 100%);
+
+        background-clip: text;
+        color: transparent;
+}
+
+.iframe_div{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 4rem;
+}
+
+  
+  .video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust the height as needed */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.5; /* Set the desired opacity value */
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    /* Add styles for your content */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+  
+
