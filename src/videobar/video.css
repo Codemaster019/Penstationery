@@ -72,3 +72,35 @@ margin: 3rem;
   }
   
 
+  .btn{
+    margin-top: 3rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 33px;
+    color: #fff;
+    background: linear-gradient(138deg, #d6282800 0%, #e76f5100 54%);
+    padding: 10px 30px;
+    border: solid #ffffff 4px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    }
+    
+    .btn:hover{
+    
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    border: solid 3px ;
+    border-color: red;
+    }
+
+    .anchor_btn{
+      text-decoration: none;
+    }

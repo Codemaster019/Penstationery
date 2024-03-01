@@ -1,0 +1,34 @@
+
+#initial_sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.header_review{
+    color: white;
+    font-size: xx-large;
+}
+
+.span_review{
+    background: linear-gradient(
+        150deg,
+        hsl(240deg 99% 74%) 0%,
+        hsl(274deg 85% 70%) 10%,
+        hsl(305deg 77% 66%) 20%,
+        hsl(320deg 100% 68%) 30%,
+        hsl(331deg 100% 68%) 40%,
+        hsl(346deg 100% 70%) 50%,
+        hsl(7deg 100% 71%) 60%,
+        hsl(24deg 100% 65%) 70%,
+        hsl(37deg 100% 59%) 80%,
+        hsl(47deg 100% 53%) 90%,
+        hsl(55deg 94% 50%) 100%);
+
+        background-clip: text;
+        color: transparent;
+}
+
+
