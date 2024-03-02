@@ -3,6 +3,7 @@ import Nav from './navbar/nav';
 import Dashboard from './Dashboard/dashboard';
 import Video from './videobar/video';
 import Review from './review/review';
+import Footer from './footer/footer';
 
 function App(){
 return (
@@ -11,6 +12,7 @@ return (
    <Dashboard />
    <Video />
    <Review />
+   <Footer />
 </div>
 );
 }

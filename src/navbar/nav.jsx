@@ -12,8 +12,8 @@ return (
 <div className='nav_style'>
     <a href='#'  className='nav_anchor'>Home</a>
     <a href='https://www.youtube.com/channel/UC5uaixznpO3fl1TuR_g45nw' className='nav_anchor'>Youtube</a>
-    <a href='#'  className='nav_anchor'>About</a>
-    <a href='#'  className='nav_anchor'>Contact</a>
+    <a href='#initial_div'  className='nav_anchor'>About</a>
+    <a href='mailto:penandstationery1@gmail.com'  className='nav_anchor'>Contact</a>
     </div>
     </div>
 </div>

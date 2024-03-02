@@ -1,8 +1,9 @@
 .para_dash{
-    color: white;
-    font-size: 50px;
+    font-size: 55px;
     animation: pulse 30s infinite alternate;
     font-style: italic;
+    font-family: fantasy;
+    line-height: 130px;
 }
 
 
@@ -143,7 +144,7 @@
   }
 
 .para_container{
-    height: 90vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -219,4 +220,9 @@ padding: 10px 50px;
 transform : translateY(-0px);
 border: solid 3px ;
 
+}
+
+.anchor_dash{
+  text-decoration: none;
+  color: white;
 }

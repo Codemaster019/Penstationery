@@ -1,0 +1,69 @@
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  .footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    width: 100%;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+.footer-social-icon{
+    margin-right: 2rem;
+}
+
+.footer-social-icon:hover{
+    color: gainsboro;
+    transform: scale(1.1);
+  }
+
+  .video-containerr {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    height: 3.5rem;
+  }
+  
+  .video-footer-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.1; /* Set the desired opacity value */
+  }
+  
+  .logo_navv{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-left: 2rem;
+      
+}
+.icon_divv{
+    margin-right: 1rem;
+}
+
+.nav_anchor_footer{
+    text-decoration: none;
+    color: white;
+}
