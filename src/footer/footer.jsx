@@ -33,7 +33,7 @@ function Footer() {
    <IconContext.Provider value={{ className: "footer-social-icon", size: '35px' }} >
    <a href='https://www.youtube.com/channel/UC5uaixznpO3fl1TuR_g45nw' className="nav_anchor_footer"><FaYoutube /></a>
    <a href='https://www.instagram.com/pen_and_stationery/' className="nav_anchor_footer"><FaInstagram /></a>
-   <a href='mailto:penandstationery1@gmail.com' className="nav_anchor_footer"><IoIosMail /> </a>
+   <a href='https://mail.google.com/mail/?view=cm&fs=1&to=penandstationery1@gmail.com' className="nav_anchor_footer"><IoIosMail /> </a>
    </IconContext.Provider>
    </div>
    </div>
