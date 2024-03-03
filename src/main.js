@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './style.css';
 import App from './app';
 
-function App() {
+function Main() {
   return (
     <div>
       {/* <App /> */}
@@ -16,4 +16,4 @@ function App() {
   );
 }
 
-export default App;
+export default Main;
