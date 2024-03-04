@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Penstationery/static/css/main.b48ceaa1.css",
-    "main.js": "/Penstationery/static/js/main.f5c28d65.js",
+    "main.js": "/Penstationery/static/js/main.62bdb397.js",
     "static/media/smoke.mp4": "/Penstationery/static/media/smoke.a83cf9482e4a7c7080ae.mp4",
     "static/media/footervid.mp4": "/Penstationery/static/media/footervid.17cb4ba82d8d70ce6d64.mp4",
     "static/media/logo.png": "/Penstationery/static/media/logo.8def099717ae120d498c.png",
     "index.html": "/Penstationery/index.html",
     "main.b48ceaa1.css.map": "/Penstationery/static/css/main.b48ceaa1.css.map",
-    "main.f5c28d65.js.map": "/Penstationery/static/js/main.f5c28d65.js.map"
+    "main.62bdb397.js.map": "/Penstationery/static/js/main.62bdb397.js.map"
   },
   "entrypoints": [
     "static/css/main.b48ceaa1.css",
-    "static/js/main.f5c28d65.js"
+    "static/js/main.62bdb397.js"
   ]
 }
