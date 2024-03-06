@@ -29,7 +29,7 @@ function Dashboard (){
     </Zoom>
     <Bounce>
     <div className='button_join'>
-    <a href='https://docs.google.com/forms/d/e/1FAIpQLSejRNz7WTlA1zhYOiXr2TIi17f_-H2K7otAT6BczD4rGxTcng/viewform' className='anchor_dash'><button class="btn">Upload ⬆️</button></a>
+    <a href='https://docs.google.com/forms/d/e/1FAIpQLSejRNz7WTlA1zhYOiXr2TIi17f_-H2K7otAT6BczD4rGxTcng/viewform' className='anchor_dash' target="_blank"><button class="btn">Upload ⬆️</button></a>
     </div>
     </Bounce>
     </div>

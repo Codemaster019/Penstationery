@@ -29,7 +29,7 @@ function Video(){
     </div>
     <Bounce>
     <div className='button_join'>
-    <a className='anchor_btn' href='https://www.youtube.com/channel/UC5uaixznpO3fl1TuR_g45nw'><button class="btn">SUBSCRIBE</button></a>
+    <a className='anchor_btn' href='https://www.youtube.com/channel/UC5uaixznpO3fl1TuR_g45nw' target="_blank"><button class="btn">SUBSCRIBE</button></a>
     </div>
     </Bounce>
     </div>

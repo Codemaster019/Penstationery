@@ -26,14 +26,14 @@ function Footer() {
     
    
     <div className='logo_div'>
-<a href='https://www.youtube.com/channel/UC5uaixznpO3fl1TuR_g45nw'><img className='logo_navv' src={Logo}></img></a>
+<a href='https://www.youtube.com/channel/UC5uaixznpO3fl1TuR_g45nw' target="_blank"><img className='logo_navv' src={Logo} ></img></a>
 </div>
     <p>&copy;<span id="year">{year}</span> Pen&Stationery. All rights reserved.</p>
    <div className="icon_divv">
    <IconContext.Provider value={{ className: "footer-social-icon", size: '35px' }} >
-   <a href='https://www.youtube.com/channel/UC5uaixznpO3fl1TuR_g45nw' className="nav_anchor_footer"><FaYoutube /></a>
-   <a href='https://www.instagram.com/pen_and_stationery/' className="nav_anchor_footer"><FaInstagram /></a>
-   <a href='https://mail.google.com/mail/?view=cm&fs=1&to=penandstationery1@gmail.com' className="nav_anchor_footer"><IoIosMail /> </a>
+   <a href='https://www.youtube.com/channel/UC5uaixznpO3fl1TuR_g45nw' className="nav_anchor_footer" target="_blank"><FaYoutube /></a>
+   <a href='https://www.instagram.com/pen_and_stationery/' className="nav_anchor_footer" target="_blank"><FaInstagram /></a>
+   <a href='https://mail.google.com/mail/?view=cm&fs=1&to=penandstationery1@gmail.com' className="nav_anchor_footer" target="_blank"><IoIosMail /> </a>
    </IconContext.Provider>
    </div>
    </div>
