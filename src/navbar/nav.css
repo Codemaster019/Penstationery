@@ -47,3 +47,24 @@ justify-content: flex-end;
 .nav_anchor:hover{
 font-weight: bolder;
 }
+
+@media only screen and (max-width: 530px) {
+    .logo_nav{
+        margin: auto;
+    }
+  
+    .logo_div{
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .nav_position{
+        flex-direction: column-reverse;
+    }
+    .nav_anchor{
+        margin: auto;
+    }
+    .nav_position{
+        padding-top: 2rem;
+    }
+}

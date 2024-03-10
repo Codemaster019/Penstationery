@@ -32,3 +32,13 @@
 }
 
 
+@media only screen and (max-width: 530px) {
+    #initial_sec{
+        height: auto;
+    }
+    .header_review{
+        text-align: center;
+        font-size: x-large;
+        margin-top: 5rem;
+    }
+}

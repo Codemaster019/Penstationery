@@ -23,9 +23,9 @@ function Video(){
     </div>
     
     <div className='iframe_div'>
-    <Iframes  src= "https://www.youtube.com/embed/GYwc8hLj1jc?si=jRH2Egrk5fwsfxqZ"/>
+    <Iframes className='iframe_responsive' src= "https://www.youtube.com/embed/GYwc8hLj1jc?si=jRH2Egrk5fwsfxqZ"/>
     <Iframes  src= "https://www.youtube.com/embed/z6IaiqDdWVY?si=xFYeoZST2JE3f63c"/>
-    <Iframes  src= "https://www.youtube.com/embed/pfBp3XcGVis?si=oC4ZFOShWEzTAT6p"/>
+    <Iframes className='iframe_responsive' src= "https://www.youtube.com/embed/pfBp3XcGVis?si=oC4ZFOShWEzTAT6p"/>
     </div>
     <Bounce>
     <div className='button_join'>

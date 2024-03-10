@@ -28,7 +28,7 @@ function Footer() {
     <div className='logo_div'>
 <a href='https://www.youtube.com/channel/UC5uaixznpO3fl1TuR_g45nw' target="_blank"><img className='logo_navv' src={Logo} ></img></a>
 </div>
-    <p>&copy;<span id="year">{year}</span> Pen&Stationery. All rights reserved.</p>
+    <p className="footer_copyright">&copy;<span id="year">{year}</span> Pen&Stationery. All rights reserved.</p>
    <div className="icon_divv">
    <IconContext.Provider value={{ className: "footer-social-icon", size: '35px' }} >
    <a href='https://www.youtube.com/channel/UC5uaixznpO3fl1TuR_g45nw' className="nav_anchor_footer" target="_blank"><FaYoutube /></a>

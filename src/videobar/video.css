@@ -105,3 +105,23 @@ margin: 3rem;
       text-decoration: none;
     }
     
+    @media only screen and (max-width: 530px) {
+      .header_text{
+        font-size: medium;
+        margin: auto;
+        margin-top: 4rem;
+        line-height: normal;
+      }
+      .iframe_responsive{
+        display: none;
+      }
+      iframe{
+        width: 380px;
+      }
+      .video-container{
+        height: auto;
+      }
+      #initial_div{
+        height: auto;
+      }
+    }

@@ -226,3 +226,32 @@ border: solid 3px ;
   text-decoration: none;
   color: white;
 }
+
+@media only screen and (max-width: 530px) {
+  .para_container{
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    
+  }
+
+  .para_dash{
+    font-size: xx-large;
+    font-style: normal;
+  }
+  .para_position{
+    margin: auto;
+  }
+
+  .join_now{
+    height: auto;
+  }
+  .para_join{
+    font-size: xx-large;
+    max-width: 80%;
+    margin-top: 5rem;
+  }
+  .button_join{
+    margin-bottom: 5rem;
+  }
+}
