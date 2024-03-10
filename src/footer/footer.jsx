@@ -25,7 +25,7 @@ function Footer() {
         </video>
     
    
-    <div className='logo_div'>
+    <div className='logo_divv'>
 <a href='https://www.youtube.com/channel/UC5uaixznpO3fl1TuR_g45nw' target="_blank"><img className='logo_navv' src={Logo} ></img></a>
 </div>
     <p className="footer_copyright">&copy;<span id="year">{year}</span> Pen&Stationery. All rights reserved.</p>
