@@ -236,8 +236,9 @@ border: solid 3px ;
   }
 
   .para_dash{
-    font-size: xx-large;
+    font-size: x-large;
     font-style: normal;
+    line-height: 80px;
   }
   .para_position{
     margin: auto;
@@ -247,7 +248,7 @@ border: solid 3px ;
     height: auto;
   }
   .para_join{
-    font-size: xx-large;
+    font-size: x-large;
     max-width: 80%;
     margin-top: 5rem;
   }

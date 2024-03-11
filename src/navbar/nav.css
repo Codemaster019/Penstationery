@@ -56,7 +56,7 @@ font-weight: bolder;
     .logo_div{
         display: flex;
         justify-content: center;
-        margin-top: 2rem;
+        margin-top: 4rem;
     }
     .nav_position{
         flex-direction: column-reverse;

@@ -111,12 +111,13 @@ margin: 3rem;
         margin: auto;
         margin-top: 4rem;
         line-height: normal;
+        max-width: none;
       }
       .iframe_responsive{
         display: none;
       }
       iframe{
-        width: 380px;
+        width: 300px;
       }
       .video-container{
         height: auto;
