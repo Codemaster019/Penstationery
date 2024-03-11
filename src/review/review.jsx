@@ -15,7 +15,7 @@ function Review(){
             <section id='initial_sec'>
                 <Slide>
                     <div className='initial_div'>
-                        <h1 className='header_review'>"Exquisite Critique: <span className='span_review'>A Showcase of Reviews"</span></h1>
+                        <h1 className='header_review'>Exquisite Critique: <span className='span_review'>A Showcase of Reviews</span></h1>
                     </div>
                 </Slide>
                 <div className="container">

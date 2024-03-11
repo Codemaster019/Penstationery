@@ -24,7 +24,7 @@ function Dashboard (){
     <div className='join_now'>
     <Zoom>
     <div className='para_div_join '>
-    <p className='para_join'>"Got an eye-catching stationery video that you're proud of ? Share it with us, and if it catches our attention, we'll feature it on our channel for all to see!"</p>
+    <p className='para_join'>Got an eye-catching stationery video that you're proud of ? Share it with us, and if it catches our attention, we'll feature it on our channel for all to see!</p>
     </div>
     </Zoom>
     <Bounce>

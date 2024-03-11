@@ -18,7 +18,7 @@ function Video(){
     
     <div className='header_text'>
     <Zoom>
-        <h1>"Discover Our Handpicked Selection of the Finest Videos - Unveiling Our <span className='span_color'>Best Content</span> Yet!"</h1>
+        <h1>Discover Our Handpicked Selection of the Finest Videos - Unveiling Our <span className='span_color'>Best Content</span> Yet!</h1>
         </Zoom>
     </div>
     
