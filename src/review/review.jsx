@@ -8,7 +8,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { useMediaQuery } from 'react-responsive';
 
 function Review(){
-    const isMobile = useMediaQuery({ maxWidth: 530 });
+    const isMobile = useMediaQuery({ maxWidth: 600 });
 
     if (isMobile) {
         return (

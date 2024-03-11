@@ -115,7 +115,7 @@ body .container .card .box .content a:hover {
   color: #000;
 }
 
-@media only screen and (max-width: 530px){
+@media only screen and (max-width: 600px){
   body .container .card{
     min-width: 50px;
 }

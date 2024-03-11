@@ -105,13 +105,13 @@ margin: 3rem;
       text-decoration: none;
     }
     
-    @media only screen and (max-width: 530px) {
+    @media only screen and (max-width: 600px) {
       .header_text{
-        font-size: medium;
+        font-size: small;
         margin: auto;
         margin-top: 4rem;
         line-height: normal;
-        max-width: none;
+        max-width: 90%;
       }
       .iframe_responsive{
         display: none;
@@ -124,5 +124,17 @@ margin: 3rem;
       }
       #initial_div{
         height: auto;
+      }
+    }
+
+    @media only screen and (min-width: 661px) and (max-width: 1150px) {
+      .header_text{
+        font-size: x-large;
+        max-width: 90%;
+        
+      }
+      iframe{
+        width: 250px;
+        height: 170px;
       }
     }

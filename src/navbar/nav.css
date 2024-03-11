@@ -48,7 +48,7 @@ justify-content: flex-end;
 font-weight: bolder;
 }
 
-@media only screen and (max-width: 530px) {
+@media only screen and (max-width: 600px) {
     .logo_nav{
         margin: auto;
     }
