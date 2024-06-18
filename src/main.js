@@ -7,7 +7,7 @@ function Main() {
   return (
     <div>
       {/* <App /> */}
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<App />} />
         </Routes>
